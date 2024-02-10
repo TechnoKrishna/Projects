@@ -24,7 +24,9 @@ hr{
 
 .Flex-Container{
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .Flex-item{
@@ -36,7 +38,7 @@ hr{
     height: 30vh;
     color: white;
     font-family: "poppins";
-    flex-basis: 100%;
+    flex-basis: 40%;
     text-align: center;
     background-color: #3e3e3e;
 }
@@ -52,7 +54,6 @@ hr{
     .Flex-Container{
         display: flex;
         flex-direction: column;
-        height: 150vh;
         margin-left: 50px;
         margin-right: 50px;
     
