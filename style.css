@@ -1,87 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@600&display=swap");
+/* FONT */
 
- * {
+
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 } 
 
-body {
-  background-size: contan;
-  background-color: rgb(17, 17, 17);
-  /* background-image: url("Stocks/BG3.jpg"); */ 
-}   
-
-.Container h1 {
-    margin-top: 3%;
-    color: #ff4d00;
-    font-family: "Bangers", sans-serif, system-ui;
-    text-align: center;
+.Container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ee5522;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
 }
-
-hr{
-    margin: 3vh;
-}
-
-.Flex-Container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.Flex-item{
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    color: white;
-    font-family: "poppins";
-    flex-basis: 40%;
-    text-align: center;
-    background-color: #3e3e3e;
-    transition: all 0.3s ease-out;
-}
-
-.Flex-item:hover{
-
-    scale: 105%;
-    background-color: #ff4d00;
-
-}
-
-.Flex-Container .Flex-item img{
-    height: 5rem;
-    width: 5rem;
-    margin: 10px;
-}
-
-.Flex-Container .Flex-item h2{
-    margin: 10px;
-}
-
-
-
-@media only screen and (max-width: 850px) {
-
-    .Flex-Container{
-        display: flex;
-        flex-direction: column;
-    
-    }
-
-    .Flex-Container .Flex-item {
-        height: 5rem;
-        width: 70vw;
-    }
-
-    .Flex-Container .Flex-item img{
-        margin: 20px;
-    }
-
-    .Flex-Container .Flex-item h2{
-        margin: 10px;
-    }
-
-  }
