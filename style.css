@@ -33,7 +33,7 @@ body {
   }
 
   img{
-    height: 10vh;
+    height: 7vw;
   }
   
   .infotop {
@@ -73,6 +73,10 @@ body {
         width: 55vw;
         height: 45vh;
         margin: 40px auto;
+      }
+
+      img{
+        height: 12vw;
       }
     
   }
