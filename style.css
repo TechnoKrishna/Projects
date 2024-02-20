@@ -67,16 +67,21 @@ body {
     
   
       }
+      .infotop {
+
+        top: 3.9em;
+    
+      }
 
       .e-card {
 
         width: 55vw;
-        height: 45vh;
+        height: 35vh;
         margin: 40px auto;
       }
 
       img{
-        height: 12vw;
+        height: 14vw;
       }
     
   }
