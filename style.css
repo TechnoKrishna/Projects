@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.Container {
+  background-color: #9fd7fa;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#heading {
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a,
+    1px 1px 0 #2a2a2a, 4px 4px #2a2a2a;
+  font-family: Unbounded, sans-serif;
+  font-weight: 800;
+  overflow-wrap: break-word;
+  padding-top: 1.5vh;
+  padding-bottom: 1vw;
+  color: white;
+  text-align: center;
+}
+
+.Container .Projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Unbounded, sans-serif;
+  font-weight: 800;
+  overflow-wrap: break-word;
+}
+
+.Container .Projects .Items {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin: 1vw;
+  background-color: #ffffff;
+  width: 25vw;
+  min-height: 25vh;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a,
+    1px 1px 0 #2a2a2a, 4px 4px #2a2a2a;
+}
+
+.Container .Projects .Items img {
+  width: 20vw;
+  text-align: center;
+  height: 20vw;
+  border-radius: 15px;
+  box-shadow: -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a,
+    1px 1px 0 #2a2a2a, 3px 3px #2a2a2a;
+}
+
